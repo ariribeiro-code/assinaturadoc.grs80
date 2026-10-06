@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Login, proteção CSRF e funções restritas ao RH",
+    "ok": true,
+    "executed_at": "2026-10-06T22:29:33.632006+00:00",
+    "scope": "Testes locais de API, banco e arquivos temporários"
+  },
+  {
+    "name": "Funcionário A não lê documentos, imagens ou downloads de B",
+    "ok": true,
+    "executed_at": "2026-10-06T22:29:34.296636+00:00",
+    "scope": "Testes locais de API, banco e arquivos temporários"
+  },
+  {
+    "name": "Liberação exige revisão, titular único, assinatura e data",
+    "ok": true,
+    "executed_at": "2026-10-06T22:29:34.656110+00:00",
+    "scope": "Testes locais de API, banco e arquivos temporários"
+  },
+  {
+    "name": "Assinatura persistida, repetição segura e PDF/ZIP completos",
+    "ok": true,
+    "executed_at": "2026-10-06T22:29:35.359647+00:00",
+    "scope": "Testes locais de API, banco e arquivos temporários"
+  },
+  {
+    "name": "Falha no armazenamento não marca assinado; nova tentativa funciona",
+    "ok": true,
+    "executed_at": "2026-10-06T22:29:36.047180+00:00",
+    "scope": "Testes locais de API, banco e arquivos temporários"
+  },
+  {
+    "name": "Lote de consulta não exibe falso 100% de assinaturas",
+    "ok": true,
+    "executed_at": "2026-10-06T22:29:36.589354+00:00",
+    "scope": "Testes locais de API, banco e arquivos temporários"
+  },
+  {
+    "name": "Divergência bloqueia assinatura; correção preserva versão anterior",
+    "ok": true,
+    "executed_at": "2026-10-06T22:29:37.295032+00:00",
+    "scope": "Testes locais de API, banco e arquivos temporários"
+  },
+  {
+    "name": "Backup restaurado em ambiente separado com hashes e sessões invalidadas",
+    "ok": true,
+    "executed_at": "2026-10-06T22:29:38.052507+00:00",
+    "scope": "Testes locais de API, banco e arquivos temporários"
+  },
+  {
+    "name": "Senha temporária exige troca; desativação e reset encerram sessões",
+    "ok": true,
+    "executed_at": "2026-10-06T22:29:38.645862+00:00",
+    "scope": "Testes locais de API, banco e arquivos temporários"
+  },
+  {
+    "name": "Duas confirmações simultâneas geram apenas uma evidência",
+    "ok": true,
+    "executed_at": "2026-10-06T22:29:39.304545+00:00",
+    "scope": "Testes locais de API, banco e arquivos temporários"
+  },
+  {
+    "name": "Tentativas de senha limitadas no servidor",
+    "ok": true,
+    "executed_at": "2026-10-06T22:29:40.090157+00:00",
+    "scope": "Testes locais de API, banco e arquivos temporários"
+  },
+  {
+    "name": "Exemplos fictícios completos e visualização protegida de PDF",
+    "ok": true,
+    "executed_at": "2026-10-06T22:29:41.392687+00:00",
+    "scope": "Testes locais de API, banco e arquivos temporários"
+  },
+  {
+    "name": "Arquivo final ausente impede conclusão e exportação do lote",
+    "ok": true,
+    "executed_at": "2026-10-06T22:29:42.025745+00:00",
+    "scope": "Testes locais de API, banco e arquivos temporários"
+  }
+]

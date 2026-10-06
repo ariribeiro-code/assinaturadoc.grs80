@@ -1,0 +1,32 @@
+GRS80 — PORTAL DO COLABORADOR
+PILOTO INDEPENDENTE | ACESSO PRÓPRIO
+
+Este pacote contém o portal com matrícula e senha próprias, área do RH,
+documentos individuais, assinatura, controle de lotes, downloads e backup.
+Não depende de créditos do Lovable nem de conta ChatGPT para os funcionários.
+
+STATUS
+- Código e telas: implementados para homologação.
+- Testes automatizados: 13 executados e aprovados; resultados em TEST_RESULTS.json.
+- Restauração do backup: testada em pasta/banco separados, com um PDF assinado.
+- Dados pessoais/salariais reais: nenhum incluído.
+- Hospedagem/endereço online: ainda não configurados.
+- Conferência visual em navegador e aparelho real: pendente neste ambiente.
+- Backup externo automático: ainda não configurado.
+
+Não tente abrir index.html isoladamente para usar o portal. Ele precisa do
+serviço que guarda os dados e confere os acessos. Não coloque documentos reais
+nem entregue acessos aos funcionários antes de finalizar a homologação.
+
+O técnico responsável encontrará:
+README.md — instalação do piloto e limites.
+OPERACAO.md — publicação, backup, restauração e retorno de versão.
+Dockerfile / compose.yaml — preparação de instalação com volume persistente.
+app.py / schema.sql — servidor, acesso e banco.
+static/ — telas, logo, cores e fontes GRS80.
+tests/ — verificações automatizadas.
+
+PRÓXIMA ETAPA
+Escolher a hospedagem sob controle da empresa; configurar HTTPS e armazenamento
+persistente; preparar o endereço e as contas; testar o fluxo no celular real.
+O portal ainda não possui link público para os funcionários.

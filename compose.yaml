@@ -1,0 +1,16 @@
+services:
+  portal:
+    build: .
+    restart: unless-stopped
+    environment:
+      PORTAL_MODE: ${PORTAL_MODE:-pilot}
+      PUBLIC_ORIGIN: ${PUBLIC_ORIGIN:-http://127.0.0.1:8000}
+      PORTAL_DATA: /data
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - portal-data:/data
+    security_opt:
+      - no-new-privileges:true
+volumes:
+  portal-data:
